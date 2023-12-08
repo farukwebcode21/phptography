@@ -110,17 +110,25 @@ nav{
 .nav-socials a:hover{
     box-shadow: 0.1rem 1rem rgba(0, 0, 0, 0.1git );
 }
-/*
-.nav-links a{
-    margin-left: 20px;
-    transition: 0.3s;
-    font-size: 20px;
-    font-style: normal;
+
+ /* ==================Header================== */
+
+header{
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+   background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
+   overflow: hidden;
 }
-.nav-links a:hover{
-    color: crimson;
+.header-container{
+    display: flex;
+    gap: 10%;
+    
 }
-.nav-socials a{
-    margin-right: 20px;
-    font-size: 30px;
-} */
+.header-left{
+    flex-basis: 50%;
+}
+.header-right{
+    flex-basis: 40%;
+}
