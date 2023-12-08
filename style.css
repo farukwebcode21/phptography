@@ -88,7 +88,28 @@ nav{
     font-weight: 500;
     color: var(--color-primary-variant);
 }
+.nav-links{
+    display: flex;
+    gap: 4rem;
+}
+.nav-socials{
+    display: flex;
+    gap: 1rem;
+}
+.nav-socials a{
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(var(--color-primary-variant), var(--color-primary));
+    color: var(--color-bg-4);
+    border-radius: 0.5rem;
+    transition: var(--transition);
+}
 
+.nav-socials a:hover{
+    box-shadow: 0.1rem 1rem rgba(0, 0, 0, 0.1git );
+}
 /*
 .nav-links a{
     margin-left: 20px;
