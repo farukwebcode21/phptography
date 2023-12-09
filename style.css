@@ -122,13 +122,44 @@ header{
    overflow: hidden;
 }
 .header-container{
-    display: flex;
-    gap: 10%;
-    
+    display: grid;
+    grid-template-columns: 53% 43%;
+    gap: 4%;
+    margin-top: 10rem;
+    position: relative;
 }
-.header-left{
+.header-hashtag{
+    color: var(--color-primary-variant);
+}
+.header-left p{
+    margin-top: 2rem;
+    width: 85%;
+}
+.header-btn{
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: var(--color-primary-variant);
+    color: var(--color-bg-2);
+    padding: 0.5rem 2rem;
+    font-weight: 500;
+    border-radius: 2rem;
+}
+.header-btn:hover{
+    color: var(--color-light);
+    background-color: var(--color-bg-4);
+}
+.header-image-bg{
+    width: 16rem;
+    height: 22rem;
+    background-color: var(--color-bg-4);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* .header-left{
     flex-basis: 50%;
 }
 .header-right{
     flex-basis: 40%;
-}
+} */
+
